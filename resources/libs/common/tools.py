@@ -399,6 +399,8 @@ def platform():
 def kodi_version():
     if 19.0 <= CONFIG.KODIV <= 19.9:
         vername = 'Matrix'
+    if 20.0 <= CONFIG.KODIV <= 20.9:
+        vername = 'Nexus'
     else:
         vername = "Unknown"
     return vername

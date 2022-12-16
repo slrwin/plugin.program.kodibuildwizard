@@ -387,9 +387,10 @@ def build_count():
     count19 = 0
     hidden = 0
     adultcount = 0
+    count20 = 0
 
     if not response:
-        return total, count19, adultcount, hidden
+        return total, count19, count20, adultcount, hidden
 
     link = response.text.replace('\n', '').replace('\r', '').replace('\t', '')
     match = re.compile('name="(.+?)".+?odi="(.+?)".+?dult="(.+?)"').findall(link)
@@ -407,6 +408,8 @@ def build_count():
             total += 1
             if kodi == 19:
                 count19 += 1
-    return total, count19, adultcount, hidden
+            if kodi == 20:
+                count20 += 1
+    return total, count19, count20, adultcount, hidden
 
 
