@@ -30,8 +30,8 @@ class MainMenu:
         from resources.libs.common import logging
         from resources.libs.common import tools
 
-        errors = int(logging.error_checking(count=True))
-        errorsfound = str(errors) + ' Error(s) Found' if errors > 0 else 'None Found'
+        #errors = int(logging.error_checking(count=True))
+        #errorsfound = str(errors) + ' Error(s) Found' if errors > 0 else 'None Found'
 
         if CONFIG.AUTOUPDATE == 'Yes':
             response = tools.open_url(CONFIG.BUILDFILE, check=True)
@@ -80,10 +80,10 @@ class MainMenu:
             directory.add_file('Contact', {'mode': 'contact'}, icon=CONFIG.ICONCONTACT, themeit=CONFIG.THEME1)
         directory.add_separator()
         directory.add_file('Upload Log File', {'mode': 'uploadlog'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME1)
-        directory.add_file('View Errors in Log: {0}'.format(errorsfound), {'mode': 'viewerrorlog'}, icon=CONFIG.ICONMAINT,
-                           themeit=CONFIG.THEME1)
-        if errors > 0:
-            directory.add_file('View Last Error In Log', {'mode': 'viewerrorlast'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME1)
+        #directory.add_file('View Errors in Log: {0}'.format(errorsfound), {'mode': 'viewerrorlog'}, icon=CONFIG.ICONMAINT,
+                          # themeit=CONFIG.THEME1)
+        #if errors > 0:
+        #    directory.add_file('View Last Error In Log', {'mode': 'viewerrorlast'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME1)
         directory.add_separator()
         directory.add_file('Settings', {'mode': 'settings', 'name': CONFIG.ADDON_ID}, icon=CONFIG.ICONSETTINGS, themeit=CONFIG.THEME1)
         if CONFIG.DEVELOPER == 'true':
