@@ -13,8 +13,8 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR limegreen][B]Desi[/B][/COLOR]Wizard'
-BUILDERNAME = 'DesiWizard'
+ADDONTITLE = '[COLOR cyan][B]kodibuilds[/B][/COLOR]Wizard'
+BUILDERNAME = 'ndeering5'
 EXCLUDES = [ADDON_ID, 'repository.kodibuilds']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program./wiki/Installing-Builds
 BUILDFILE = 'https://textbin.net/raw/tqybcosexl'
@@ -75,9 +75,9 @@ THEME5 = u'[COLOR {color1}]Current Theme:[/COLOR] [COLOR {color2}]{{}}[/COLOR]'.
 
 # Message for Contact Page
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
-HIDECONTACT = 'Yes'
+HIDECONTACT = 'No'
 # You can add \n to do line breaks
-CONTACT = 'Thank you for choosing Desi Wizard.\n\nContact us on Github at https://github.com/ndeering5/plugin.program.kodibuildwizard'
+CONTACT = 'Contact us on Github at https://github.com/ndeering5/plugin.program.kodibuildwizard'
 # Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON = os.path.join(ART, 'qricon.png')
 CONTACTFANART = 'http://'
@@ -114,7 +114,7 @@ NOTIFICATION = 'http://'
 HEADERTYPE = 'Text'
 # Font size of header
 FONTHEADER = 'Font14'
-HEADERMESSAGE = '[COLOR limegreen][B]kodibuilds[/B][/COLOR]Wizard'
+HEADERMESSAGE = '[COLOR cyan][B]kodibuilds[/B][/COLOR]Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE = 'http://'
 # Font for Notification Window
