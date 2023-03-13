@@ -53,7 +53,7 @@ class Router:
             self._finish(handle)
 
         # SETTINGS
-        elif mode == 'settings':  # DesiWizard settings
+        elif mode == 'settings':  # kodibuildWizard settings
             CONFIG.open_settings(name)
             xbmc.executebuiltin('Container.Refresh()')
         elif mode == 'opensettings':  # Open other addons' settings

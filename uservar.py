@@ -13,7 +13,7 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR cyan][B]kodibuilds[/B][/COLOR]Wizard'
+ADDONTITLE = '[COLOR cyan][B]kodibuild[/B][/COLOR]Wizard'
 BUILDERNAME = 'ndeering5'
 EXCLUDES = [ADDON_ID, 'repository.kodibuilds']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program./wiki/Installing-Builds
@@ -63,7 +63,7 @@ SPACER = '='
 COLOR1 = 'cyan'
 COLOR2 = 'white'
 # Primary menu items   / {0} is the menu item and is required
-THEME1 = u'[COLOR {color1}][I]([COLOR {color1}][B]Desi[/B][/COLOR][COLOR {color2}]Wizard[COLOR {color1}])[/I][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2)
+THEME1 = u'[COLOR {color1}][I]([COLOR {color1}][B]kodibuild[/B][/COLOR][COLOR {color2}]Wizard[COLOR {color1}])[/I][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2)
 # Build Names          / {0} is the menu item and is required
 THEME2 = u'[COLOR {color1}]{{}}[/COLOR]'.format(color1=COLOR1)
 # Alternate items      / {0} is the menu item and is required
@@ -114,7 +114,7 @@ NOTIFICATION = 'http://'
 HEADERTYPE = 'Text'
 # Font size of header
 FONTHEADER = 'Font14'
-HEADERMESSAGE = '[COLOR cyan][B]kodibuilds[/B][/COLOR]Wizard'
+HEADERMESSAGE = '[COLOR cyan][B]kodibuild[/B][/COLOR]Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE = 'http://'
 # Font for Notification Window
