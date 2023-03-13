@@ -17,7 +17,7 @@ ADDONTITLE = '[COLOR limegreen][B]Desi[/B][/COLOR]Wizard'
 BUILDERNAME = 'DesiWizard'
 EXCLUDES = [ADDON_ID, 'repository.kodibuilds']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program./wiki/Installing-Builds
-BUILDFILE = 'https://textbin.net/tqybcosexl'
+BUILDFILE = 'https://textbin.net/raw/tqybcosexl'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
